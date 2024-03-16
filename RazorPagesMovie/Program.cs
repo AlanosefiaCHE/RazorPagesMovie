@@ -8,6 +8,7 @@ builder.Services.AddRazorPages();
 builder.Services.AddDbContext<RazorPagesMovieContext>(options =>
     options.UseSqlServer(builder.Configuration.GetConnectionString("RazorPagesMovieContext") ?? throw new InvalidOperationException("Connection string 'RazorPagesMovieContext' not found.")));
 
+
 var app = builder.Build();
 
 using (var scope = app.Services.CreateScope())

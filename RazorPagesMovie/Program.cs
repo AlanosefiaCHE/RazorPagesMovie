@@ -2,7 +2,6 @@ using Microsoft.EntityFrameworkCore;
 using RazorPagesMovie.Data;
 using RazorPagesMovie.Models;
 
-// https://learn.microsoft.com/en-us/aspnet/core/tutorials/razor-pages/da1?view=aspnetcore-8.0
 var builder = WebApplication.CreateBuilder(args);
 
 builder.Services.AddRazorPages();
